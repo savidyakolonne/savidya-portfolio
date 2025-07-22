@@ -87,7 +87,7 @@ const Hero = () => {
 
   
   <a
-    href="https://your-inlax-site.com"
+    href="https://www.inlax.site/"
     target="_blank"
     rel="noopener noreferrer"
     className="backdrop-blur-md bg-white/10 border border-white/30 text-white hover:bg-white/20 transition px-6 py-3 rounded-full inline-flex items-center gap-2 text-sm font-semibold"
