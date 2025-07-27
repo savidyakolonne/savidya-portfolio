@@ -1,12 +1,29 @@
-# React + Vite
+<h1>🌐 My Portfolio Website</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with React and Vite, and deployed on Vercel.
+It showcases my projects, skills, and experience as a Software Engineering student.
 
-Currently, two official plugins are available:
+✨ Features
+React + Vite for a fast and modern frontend.
+Responsive Design – Works on all screen sizes.
+Smooth Animations with CSS/JS transitions.
+Projects Section – Showcases my latest work.
+Deployed on Vercel – Lightning-fast hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack
+React (with Hooks)
+Vite (for super-fast build)
+TailwindCSS
+Vercel (deployment)
 
-## Expanding the ESLint configuration
+🌟 Live Demo
+https://savidya-portfolio.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📬 Contact
+Got feedback or opportunities? Reach out to me on LinkedIn or email me at savidya.kolonne@gmail.com.
+
+<img width="1218" height="634" alt="image" src="https://github.com/user-attachments/assets/6d7bbad1-75aa-4ec9-8bec-8a4d2349be5f" />
+<img width="1171" height="604" alt="image" src="https://github.com/user-attachments/assets/ee1ecbe6-c3ea-4cff-abdd-771df135ea01" />
+<img width="1166" height="608" alt="image" src="https://github.com/user-attachments/assets/a02a13de-70c1-49f0-a659-d5e93722837c" />
+<img width="1200" height="642" alt="image" src="https://github.com/user-attachments/assets/3ffb00cf-e68b-4b57-b342-6465863d57cb" />
+<img width="1021" height="648" alt="image" src="https://github.com/user-attachments/assets/accdf4ca-5bee-4188-8f80-89dc83d617c7" />
