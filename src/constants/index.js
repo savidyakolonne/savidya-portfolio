@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp"; 
+import project5 from "../assets/projects/project-5.webp"; 
 
 export const HERO_CONTENT = `I’m a passionate software engineering student with a growing interest in full stack development, machine learning, and artificial intelligence. I enjoy building modern web applications and constantly exploring new technologies to improve my skills. I’m also the founder of iNLAX, a startup focused on creating innovative digital solutions.`;
 
@@ -18,6 +19,20 @@ export const EXPERIENCES = [
 ];
 
 export const ALLPROJECTS = [
+
+  {
+    title: "iNLAX",
+    image: project5,
+    description: "This is the latest project.",
+    technologies: ["React", "TailwindCSS" , "JavaScript", "EmailJs"],
+    id: "project5",
+    liveUrl: "https://www.inlax.site/",
+    //  githubUrl: "#",
+    // youtubeUrl: "#"
+
+    
+  },
+
   {
     title: "Savi K. Portfolio",
     image: project4,
