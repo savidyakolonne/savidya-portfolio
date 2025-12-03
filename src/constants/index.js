@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp"; 
 import project5 from "../assets/projects/project-5.webp"; 
+import project6 from "../assets/projects/project-6.webp"; 
 
 export const HERO_CONTENT = `I’m a passionate software engineering student with a growing interest in full stack development, machine learning, and artificial intelligence. I enjoy building modern web applications and constantly exploring new technologies to improve my skills. I’m also the founder of iNLAX, a startup focused on creating innovative digital solutions.`;
 
@@ -22,11 +23,11 @@ export const ALLPROJECTS = [
 
 {
     title: "Traamp ",
-    image: project1,
+    image: project6,
     description: "Traamp is a second year Software Development Group Project (SDGP) developed by me and my team to create a digital platform that connects tourists with verified tour guides in Sri Lanka. The project focuses on improving trust, accessibility, and visibility within the tourism industry through modern technology and user friendly design.",
     technologies: ["NextJs", "TailwindCSS", "TypeScript"],
     id: "project6",
-    liveUrl: "https://traamp.com/",
+    liveUrl: "https://traamp.com",
     githubUrl: "https://https://github.com/savidyakolonne/traamp-landingpg",
     // youtubeUrl: "#"
 
