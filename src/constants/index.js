@@ -5,18 +5,7 @@ import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/project-5.webp"; 
 import project6 from "../assets/projects/project-6.webp"; 
 
-export const HERO_CONTENT = `
-I’m Savidya Kolonne, a software engineering student, full-stack developer, and AI/ML enthusiast.
-I build modern web applications and intelligent systems using modern technologies.
-I’m available for freelance projects, internships, and developer roles.
-Founder of iNLAX, creating innovative digital solutions.
-`;
-
-
-export const ABOUT_TEXT = `I’m a software engineering student, full-stack developer, and AI/ML enthusiast.
-I build modern web applications and intelligent systems using current technologies.
-I’m available for freelance projects, internships, and developer roles.
-Founder of iNLAX, where I create innovative digital solutions.`;
+export const HERO_CONTENT = `I’m a software engineering student, full-stack developer, and AI/ML enthusiast. I build modern web applications and intelligent systems using modern technologies. I’m available for freelance projects, internships, and developer roles. Founder of iNLAX, creating innovative digital solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -37,7 +26,7 @@ export const ALLPROJECTS = [
     technologies: ["NextJs", "TailwindCSS", "TypeScript"],
     id: "project6",
     liveUrl: "https://traamp.com",
-    githubUrl: "https://github.com/savidyakolonne/traamp-landingpg",
+    githubUrl: "https://https://github.com/savidyakolonne/traamp-landingpg",
     // youtubeUrl: "#"
 
   },
