@@ -37,7 +37,7 @@ export const ALLPROJECTS = [
     technologies: ["NextJs", "TailwindCSS", "TypeScript"],
     id: "project6",
     liveUrl: "https://traamp.com",
-    githubUrl: "https://https://github.com/savidyakolonne/traamp-landingpg",
+    githubUrl: "https://github.com/savidyakolonne/traamp-landingpg",
     // youtubeUrl: "#"
 
   },
