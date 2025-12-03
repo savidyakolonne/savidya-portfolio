@@ -5,9 +5,18 @@ import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/project-5.webp"; 
 import project6 from "../assets/projects/project-6.webp"; 
 
-export const HERO_CONTENT = `I’m a passionate software engineering student with a growing interest in full stack development, machine learning, and artificial intelligence. I enjoy building modern web applications and constantly exploring new technologies to improve my skills. I’m also the founder of iNLAX, a startup focused on creating innovative digital solutions.`;
+export const HERO_CONTENT = `
+I’m Savidya Kolonne, a software engineering student, full-stack developer, and AI/ML enthusiast.
+I build modern web applications and intelligent systems using modern technologies.
+I’m available for freelance projects, internships, and developer roles.
+Founder of iNLAX, creating innovative digital solutions.
+`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const ABOUT_TEXT = `I’m a software engineering student, full-stack developer, and AI/ML enthusiast.
+I build modern web applications and intelligent systems using current technologies.
+I’m available for freelance projects, internships, and developer roles.
+Founder of iNLAX, where I create innovative digital solutions.`;
 
 export const EXPERIENCES = [
   {
