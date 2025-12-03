@@ -20,6 +20,17 @@ export const EXPERIENCES = [
 
 export const ALLPROJECTS = [
 
+{
+    title: "Traamp ",
+    image: project1,
+    description: "Traamp is a second year Software Development Group Project (SDGP) developed by me and my team to create a digital platform that connects tourists with verified tour guides in Sri Lanka. The project focuses on improving trust, accessibility, and visibility within the tourism industry through modern technology and user friendly design.",
+    technologies: ["NextJs", "TailwindCSS", "TypeScript"],
+    id: "project6",
+    liveUrl: "https://traamp.com/",
+    githubUrl: "https://https://github.com/savidyakolonne/traamp-landingpg",
+    // youtubeUrl: "#"
+
+  },
   {
     title: "iNLAX",
     image: project5,
