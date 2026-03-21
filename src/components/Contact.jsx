@@ -1,22 +1,20 @@
 import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { CONTACT } from "../constants";
-import { FaMapMarkerAlt, FaEnvelope ,FaWhatsapp } from 'react-icons/fa';
-
+import { FaMapMarkerAlt, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const formRef = useRef();
   const [isSent, setIsSent] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Hide success message after 3 seconds
   useEffect(() => {
     if (isSent) {
       const timer = setTimeout(() => {
         setIsSent(false);
-      }, 3000); // 3 seconds
+      }, 3000);
 
-      return () => clearTimeout(timer); // Cleanup timer on unmount or re-run
+      return () => clearTimeout(timer);
     }
   }, [isSent]);
 
@@ -28,15 +26,14 @@ const Contact = () => {
     const now = new Date();
     const formattedTime = now.toLocaleString();
 
-    // Safely set hidden time input value
     formRef.current.elements["time"].value = formattedTime;
 
     emailjs
       .sendForm(
-        "service_iftg00o",       // Your EmailJS Service ID
-        "template_g6qso6d",      // Your EmailJS Template ID
+        "service_iftg00o",
+        "template_g6qso6d",
         formRef.current,
-        "aOB5z04sr58AnUYhl"      // Your EmailJS Public Key
+        "aOB5z04sr58AnUYhl"
       )
       .then(
         () => {
@@ -82,7 +79,6 @@ const Contact = () => {
           className="border border-gray-300 p-3 rounded-md"
         ></textarea>
 
-        {/* Hidden fields for EmailJS template variables */}
         <input type="hidden" name="name" value="Portfolio Visitor" />
         <input type="hidden" name="title" value="New Portfolio Contact Message" />
         <input type="hidden" name="time" />
@@ -104,21 +100,19 @@ const Contact = () => {
         )}
       </form>
 
-      <br />
-      
-      <div className="text-center tracking-tighter mb-8 text-white">
-  <p className="my-2 flex items-center justify-center gap-2">
-    <FaMapMarkerAlt className="text-blue-500" /> {CONTACT.address}
-  </p>
-  <p className="my-2 flex items-center justify-center gap-2">
-    <FaWhatsapp className="text-green-500" /> {CONTACT.phoneNo}
-  </p>
-  <p className="my-2 flex items-center justify-center gap-2">
-    <FaEnvelope className="text-red-500" /> {CONTACT.email}
-  </p>
-</div>
+      <div className="mt-10 max-w-xl mx-auto text-white">
+        <div className="space-y-4">
+          <div className="flex items-start gap-3 rounded-lg border border-stone-800 bg-stone-900/40 p-4">
+            <FaMapMarkerAlt className="mt-1 shrink-0 text-blue-500 text-lg" />
+            <p className="text-sm sm:text-base break-words">{CONTACT.address}</p>
+          </div>
 
-
+          <div className="flex items-start gap-3 rounded-lg border border-stone-800 bg-stone-900/40 p-4">
+            <FaEnvelope className="mt-1 shrink-0 text-red-500 text-lg" />
+            <p className="text-sm sm:text-base break-words">{CONTACT.email}</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
