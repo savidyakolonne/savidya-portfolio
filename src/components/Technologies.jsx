@@ -1,6 +1,22 @@
-import { FaNodeJs, FaPython, FaJava, FaJsSquare, FaWordpress } from "react-icons/fa";
+import {
+  FaNodeJs,
+  FaPython,
+  FaJava,
+  FaJsSquare,
+  FaWordpress,
+  FaAws,
+} from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiTailwindcss, SiMysql, SiNextdotjs, SiTypescript } from "react-icons/si";
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiMysql,
+  SiNextdotjs,
+  SiTypescript,
+  SiPostgresql,
+  SiFirebase,
+  SiDocker,
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 // Animation bounce
@@ -75,12 +91,38 @@ const techSections = {
       icon: <SiMongodb className="text-7xl text-green-600" />,
       duration: 3,
     },
+    {
+      name: "PostgreSQL",
+      icon: <SiPostgresql className="text-7xl text-sky-600" />,
+      duration: 2.7,
+    },
+    {
+      name: "Firestore",
+      icon: <SiFirebase className="text-7xl text-yellow-500" />,
+      duration: 2.9,
+    },
   ],
 
   CMS: [
     {
       name: "WordPress",
       icon: <FaWordpress className="text-7xl text-blue-500" />,
+      duration: 2.5,
+    },
+  ],
+
+  DevOps: [
+    {
+      name: "Docker",
+      icon: <SiDocker className="text-7xl text-blue-400" />,
+      duration: 2.4,
+    },
+  ],
+
+  Cloud: [
+    { 
+      name: "AWS",
+      icon: <FaAws className="text-7xl text-orange-400" />,
       duration: 2.5,
     },
   ],

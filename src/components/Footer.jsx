@@ -56,15 +56,6 @@ const Footer = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://wa.me/+94740581587"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white transition"
-            aria-label="Whatsapp"
-          >
-            <FaWhatsapp />
-          </a>
-          <a
             href="https://www.facebook.com/share/16X1gaLw6t/"
             target="_blank"
             rel="noopener noreferrer"
