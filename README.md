@@ -17,7 +17,7 @@ TailwindCSS
 Vercel (deployment)
 
 🌟 Live Demo
-https://savidya-portfolio.vercel.app/
+[(https://www.savidyakolonne.me/)]
 
 📬 Contact
 Got feedback or opportunities? Reach out to me on LinkedIn or email me at savidya.kolonne@gmail.com.
